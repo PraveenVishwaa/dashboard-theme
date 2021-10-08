@@ -1,0 +1,46 @@
+<div (click)="changeClass()" [ngClass]="isActiveClass ? 'bx-menu bx-menu-alt-right' : 'bx-menu-alt-right bx-menu'"
+     class="sidebar active">
+  <div class="logo-details">
+    <!-- <i class='bx bxl-c-plus-plus'></i> -->
+    <i class='bx bx-menu sidebarBtn' style="cursor: pointer;"></i>
+    <span class="logo_name">Site Logo</span>
+  </div>
+  <ul class="nav-links">
+    <li>
+      <a class="active" href="#">
+        <i class='bx bx-grid-alt'></i>
+        <span class="links_name">Dashboard</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class='bx bx-box'></i>
+        <span class="links_name">Product</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class='bx bx-list-ul'></i>
+        <span class="links_name">Order list</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class='bx bx-pie-chart-alt-2'></i>
+        <span class="links_name">Analytics</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class='bx bx-search'></i>
+        <span class="links_name">Analytics</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<section class="home-section">
+  <app-custom-body></app-custom-body>
+
+</section>
+
